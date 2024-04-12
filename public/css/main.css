@@ -1,0 +1,88 @@
+body{
+    background-color: aliceblue;
+    /* overflow: hidden; */
+   
+}
+#upperpage{
+    background-color: #8B93FF;
+    padding: 40px ;
+    margin-top: -10px ;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
+
+.Touch{
+    background-color: white;
+    padding: 20px 20px;
+    display: inline;
+    text-align: center;
+    border-color: black;
+    border-radius: 30%;
+    border-width: 2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.Touch:hover{
+    color:black;
+    transform: scale(1.2);
+    background-color: tan;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.image-container{
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+#heading {
+    float: right; /* Add this property */
+    width: calc(50% - 40px); /* Subtract padding from the width */
+    /* padding: 40px; Add padding to match the padding on the #upperpage */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    background-color: #ffffff; /* Set background color */
+    
+    
+    margin-left: 50px;
+    
+}
+h1{
+    text-size-adjust: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    margin-top: 10px;
+    
+}
+#web{
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+h2{
+    margin-left: 300px;
+    
+}
+
+
+.imageIcon{
+    size: 30px;
+}
+.links{
+    border-radius: 45%;
+    border-width: 2px;
+}
+a:hover{
+    color:black;
+    transform: scale(1.2);
+    
+    margin-left: 20px;
+    margin-right: 50px;
+}
+form{
+    display: inline-block; 
+    /*changing the elements put vertically in to horizontally*/
+}
